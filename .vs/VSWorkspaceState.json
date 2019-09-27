@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BookShop",
+    "\\BookShop\\App_Start",
+    "\\BookShop\\Content",
+    "\\BookShop\\Content\\audio",
+    "\\BookShop\\Content\\img",
+    "\\BookShop\\Controllers",
+    "\\BookShop\\Properties",
+    "\\BookShop\\Views",
+    "\\BookShop\\Views\\Cart",
+    "\\BookShop\\Views\\Home",
+    "\\packages"
+  ],
+  "SelectedNode": "\\BookShop.sln",
+  "PreviewInSolutionExplorer": false
+}
