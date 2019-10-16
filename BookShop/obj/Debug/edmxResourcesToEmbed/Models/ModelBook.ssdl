@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookShopModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="50" />
+    <Property Name="Name" Type="nvarchar" MaxLength="250" />
+    <Property Name="Author" Type="int" />
+    <Property Name="Released" Type="int" />
+    <Property Name="Publisher" Type="int" />
+    <Property Name="NumberPage" Type="int" />
+    <Property Name="Weight" Type="int" />
+    <Property Name="Form" Type="nvarchar" MaxLength="20" />
+    <Property Name="PublishDate" Type="date" />
+    <Property Name="Buys" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="PromotionPrice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="CategoryID" Type="bigint" />
+    <Property Name="ViewCount" Type="int" />
+    <Property Name="Inventory" Type="int" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="Image" Type="nvarchar" MaxLength="250" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="BookShopModelStoreContainer">
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

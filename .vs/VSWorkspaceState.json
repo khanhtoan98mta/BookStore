@@ -3,16 +3,11 @@
     "",
     "\\BookShop",
     "\\BookShop\\App_Start",
-    "\\BookShop\\Content",
-    "\\BookShop\\Content\\audio",
-    "\\BookShop\\Content\\img",
     "\\BookShop\\Controllers",
-    "\\BookShop\\Properties",
+    "\\BookShop\\Models",
     "\\BookShop\\Views",
-    "\\BookShop\\Views\\Cart",
-    "\\BookShop\\Views\\Home",
-    "\\packages"
+    "\\BookShop\\Views\\Home"
   ],
-  "SelectedNode": "\\BookShop.sln",
+  "SelectedNode": "\\BookShop\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -1239,10 +1239,17 @@ body {
     position: relative;
     overflow: hidden;
 }
+
+#DisplayImage {
+    display: inline;
+    min-width: 700px;
+    min-height: 350px;
+}
 .product-img,
 .most-product-img {
     position: relative;
     overflow: hidden;
+
 }
 .product-img::after,
 .most-product-img::after,

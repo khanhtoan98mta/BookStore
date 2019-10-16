@@ -153,6 +153,9 @@ E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\Antlr3.Runtime.pdb
 E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\System.Diagnostics.DiagnosticSource.xml
 E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\obj\Debug\BookShop.csprojResolveAssemblyReference.cache
 E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\obj\Debug\BookShop.dll
 E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\obj\Debug\BookShop.pdb
+E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\EntityFramework.dll
+E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\EntityFramework.SqlServer.dll
+E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\EntityFramework.xml
+E:\Nam 4\Kì I\TT NHóm\BookStore\BookShop\bin\EntityFramework.SqlServer.xml

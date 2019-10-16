@@ -3,6 +3,7 @@
     ViewBag.Title = "_MyLayout";
 }
 
+
 <!doctype html>
 <html class="no-js" lang="en">
 <head>
@@ -65,9 +66,13 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
                         <div class="header-search">
-                            <form action="#">
-                                <input type="text" placeholder="Search entire store here..." />
-                                <a href="#"><i class="fa fa-search"></i></a>
+
+                            <form method="post" action="/Search/Search">
+                                
+                                   
+                                        <input type="text" name="txt" placeholder="Search entire store here..." />
+                                        <input type="submit" Sub />
+
                             </form>
                         </div>
                     </div>
@@ -115,8 +120,8 @@
                                         <div class="cart-bottom">
                                             <a @Html.ActionLink("View Cart", "Cart", "Cart")</a>
                                             <a href="checkout.html">Check out</a>
-
                                         </div>
+                                       
                                     </div>
                                 </li>
                             </ul>
