@@ -20,7 +20,6 @@ namespace BookShop.Controllers
         public ActionResult Hello()
         {
             string str = "";
-            str = "toan";
             return View() ;
         }
         public ActionResult BookDetail(long id)
