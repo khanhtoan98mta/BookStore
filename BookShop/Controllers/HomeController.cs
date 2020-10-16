@@ -16,6 +16,12 @@ namespace BookShop.Controllers
             ViewBag.Book = model; 
             return View(model);
         }
+
+        public ActionResult Hello()
+        {
+            string str = "";
+            return View() ;
+        }
         public ActionResult BookDetail(long id)
         {
             var model = new F_Book().FindEntity(id);
